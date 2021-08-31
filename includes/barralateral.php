@@ -5,13 +5,13 @@
   
 <?php if(isset($_SESSION['error-login'])): ?>
 <div id="error" class="bloque">
-<?php echo "Error ".$_SESSION['error-login'];?>
+<?php echo "Error No funciona porque: ".$_SESSION['error-login'];?>
 </div>
 <?php endif; ?>
 
 <?php if(isset($_SESSION['usuarios'])): ?>
 <div id="error" class="bloque">
-<?php echo "Bienvenido ".$_SESSION['usuarios']['nombre'];?>
+<?php echo "Bienvenid mi estimado  ".$_SESSION['usuarios']['nombre'];?>
 </div>
 <?php endif; ?>
 
